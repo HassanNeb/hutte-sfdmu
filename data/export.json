@@ -9,7 +9,283 @@
       "query": "SELECT readonly_false FROM Contact ORDER BY Email,LastName,FirstName ASC",
       "operation": "Upsert",
       "externalId": "Email;LastName;FirstName"
+    },
+    {
+      "query": "SELECT readonly_false FROM Contract ORDER BY ContractNumber ASC",
+      "operation": "Upsert",
+      "externalId": "ContractNumber"
+    },
+    {
+      "query": "SELECT readonly_false FROM Opportunity ORDER BY Name ASC",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT readonly_false FROM OpportunityLineItem ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM Order ORDER BY OrderNumber ASC",
+      "operation": "Upsert",
+      "externalId": "OrderNumber"
+    },
+    {
+      "query": "SELECT readonly_false FROM OrderDeliveryGroup ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM OrderItem ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM Pricebook2 ORDER BY Name ASC",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT readonly_false FROM PricebookEntry ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM Product2 ORDER BY Name ASC",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__BlockPrice__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__ConfigurationAttribute__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__ConfigurationRule__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__ContractedPrice__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__Cost__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__CustomScript__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__Dimension__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__DiscountCategory__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__DiscountSchedule__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__DiscountTier__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__ErrorCondition__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__Favorite__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__FavoriteProduct__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__FavoriteShare__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__ImportColumn__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__ImportFormat__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__LineColumn__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__Localization__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__LookupQuery__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__OptionConstraint__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__PriceAction__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__PriceCondition__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__PriceRule__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__PricingGuidance__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__ProcessInput__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__ProcessInputValue__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__ProductAction__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__ProductAttribute__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__ProductFeature__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__ProductOption__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__ProductRule__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__Quote__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__QuoteDocument__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__QuoteLine__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__QuoteTemplate__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__QuoteTerm__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__RelatedContent__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__SearchIndex__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__Subscription__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__SummaryVariable__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__SummaryVariable__Share ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__TemplateContent__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__TemplateSection__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__TermCondition__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__UpgradeSource__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
+    },
+    {
+      "query": "SELECT readonly_false FROM SBQQ__WebQuote__c ORDER BY Id ASC",
+      "operation": "Upsert",
+      "externalId": "Id"
     }
   ],
   "excludeIdsFromCSVFiles": true
 }
+
