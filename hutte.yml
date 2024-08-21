@@ -9,18 +9,10 @@ push_script: |
 custom_scripts:
   # This scripts will be displayed on the scratch org's page
   scratch_org:
-    'Import Data':
-      description: "Import data using SFDMU"
+    'Import CPQ Data':
+      description: "Import CPQ data using SFDMU"
       run: |
         set -euo pipefail # fail fast
         echo y | sf plugins install sfdmu
         sf sfdmu run -p data -s csvfile -u "${SALESFORCE_USERNAME}" --filelog 0 -n
-    'Export Data':
-      description: "Export data using SFDMU"
-      run: |
-        set -euo pipefail # fail fast
-        echo y | sf plugins install sfdmu
-        sf sfdmu run -p data -s "${SALESFORCE_USERNAME}" -u csvfile --filelog 0 -n
-        git add data
-        git commit -m "add data"
-        git push origin "${HUTTE_GIT_SOURCE_BRANCH}"
+  
