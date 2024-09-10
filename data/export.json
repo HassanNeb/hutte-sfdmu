@@ -1,291 +1,219 @@
 {
   "objects": [
     {
-      "query": "SELECT readonly_false FROM Account ORDER BY Name ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__CustomSource__c, SBQQ__FontFamily__c, SBQQ__FontSize__c, SBQQ__Markup__c, SBQQ__RawMarkup__c, SBQQ__TableStyle__c, SBQQ__TextColor__c, SBQQ__Type__c FROM SBQQ__TemplateContent__c",
       "operation": "Upsert",
       "externalId": "Name"
     },
     {
-      "query": "SELECT readonly_false FROM Contact ORDER BY Email,LastName,FirstName ASC",
-      "operation": "Upsert",
-      "externalId": "Email;LastName;FirstName"
-    },
-    {
-      "query": "SELECT readonly_false FROM Contract ORDER BY ContractNumber ASC",
-      "operation": "Upsert",
-      "externalId": "ContractNumber"
-    },
-    {
-      "query": "SELECT readonly_false FROM Opportunity ORDER BY Name ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__AllPackageProductsShown__c, SBQQ__BillToTitle__c, SBQQ__BorderColor__c, SBQQ__BottomMargin__c, SBQQ__BundledProductsShown__c, SBQQ__CompanyCity__c, SBQQ__CompanyCountry__c, SBQQ__CompanyEmail__c, SBQQ__CompanyFax__c, SBQQ__CompanyName__c, SBQQ__CompanyPhone__c, SBQQ__CompanyPostalCode__c, SBQQ__CompanySlogan__c, SBQQ__CompanyState__c, SBQQ__CompanyStreet__c, SBQQ__ComponentProductsHidden__c, SBQQ__CustomerDiscountField__c, SBQQ__CustomerDiscountLabel__c, SBQQ__CustomerDiscountShown__c, SBQQ__Default__c, SBQQ__DeploymentStatus__c, SBQQ__DiscountScheduleShown__c, SBQQ__ExcludeHeaderFooter__c, SBQQ__ExcludedPages__c, SBQQ__FontFamily__c, SBQQ__FontSize__c, SBQQ__FooterContent__c, SBQQ__FooterHeight__c, SBQQ__GeneratorName__c, SBQQ__GrandTotalPrefix__c, SBQQ__GroupField__c, SBQQ__GroupFontFamily__c, SBQQ__GroupFontSize__c, SBQQ__GroupFontStyle__c, SBQQ__GroupGap__c, SBQQ__GroupShadingColor__c, SBQQ__GroupTextAlignment__c, SBQQ__GroupTextColor__c, SBQQ__HeaderContent__c, SBQQ__HeaderHeight__c, SBQQ__HideGroupSubtotals__c, SBQQ__IntroductionTitle__c, SBQQ__LeftMargin__c, SBQQ__LineNumbering__c, SBQQ__LineSortField__c, SBQQ__LogoDocumentId__c, SBQQ__NotesTitle__c, SBQQ__PageHeight__c, SBQQ__PageNumberAlignment__c, SBQQ__PageNumberPosition__c, SBQQ__PageNumberText__c, SBQQ__PageOrientation__c, SBQQ__PageWidth__c, SBQQ__PartnerDiscountLabel__c, SBQQ__PartnerDiscountShown__c, SBQQ__RenewedProductsShown__c, SBQQ__RightMargin__c, SBQQ__RollUpField__c, SBQQ__ShadingColor__c, SBQQ__ShipToTitle__c, SBQQ__SubGroupField__c, SBQQ__SubtotalField__c, SBQQ__SubtotalLabel__c, SBQQ__TermBodyIndent__c, SBQQ__TermsConditionsTitle__c, SBQQ__TermsConditions__c, SBQQ__TermsNumbered__c, SBQQ__TextColor__c, SBQQ__TopMargin__c, SBQQ__TotalField__c, SBQQ__TotalLabel__c, SBQQ__TotalsHidden__c, SBQQ__WatermarkId__c FROM SBQQ__QuoteTemplate__c",
       "operation": "Upsert",
       "externalId": "Name"
     },
     {
-      "query": "SELECT readonly_false FROM OpportunityLineItem ORDER BY Id ASC",
-      "operation": "Upsert",
-      "externalId": "Id"
-    },
-    {
-      "query": "SELECT readonly_false FROM Order ORDER BY OrderNumber ASC",
-      "operation": "Upsert",
-      "externalId": "OrderNumber"
-    },
-    {
-      "query": "SELECT readonly_false FROM OrderDeliveryGroup ORDER BY Id ASC",
-      "operation": "Upsert",
-      "externalId": "Id"
-    },
-    {
-      "query": "SELECT readonly_false FROM OrderItem ORDER BY Id ASC",
-      "operation": "Upsert",
-      "externalId": "Id"
-    },
-    {
-      "query": "SELECT readonly_false FROM Pricebook2 ORDER BY Name ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__Template__c, SBQQ__BorderColor__c, SBQQ__BottomMargin__c, SBQQ__ColumnHeaderHidden__c, SBQQ__ConditionalPrintField__c, SBQQ__Content__c, SBQQ__DisplayOrder__c, SBQQ__FilterField__c, SBQQ__FilterOperator__c, SBQQ__FilterValue__c, SBQQ__GroupField__c, SBQQ__KeepTogether__c, SBQQ__KeepWithNext__c, SBQQ__KeepWithPrevious__c, SBQQ__PageBreak__c, SBQQ__QuoteTotalsPrinted__c, SBQQ__RollUpField__c, SBQQ__SummaryDisplay__c, SBQQ__TopMargin__c, SBQQ__ApplyDocumentLanguageFormatting__c FROM SBQQ__TemplateSection__c",
       "operation": "Upsert",
       "externalId": "Name"
     },
     {
-      "query": "SELECT readonly_false FROM PricebookEntry ORDER BY Id ASC",
-      "operation": "Upsert",
-      "externalId": "Id"
-    },
-    {
-      "query": "SELECT readonly_false FROM Product2 ORDER BY Name ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__Template__c, SBQQ__Alignment__c, SBQQ__BottomMargin__c, SBQQ__ColumnHeadingField__c, SBQQ__ConditionalPrintField__c, SBQQ__DisplayOrder__c, SBQQ__DynamicNumberScale__c, SBQQ__FieldName__c, SBQQ__FontFamily__c, SBQQ__FontSize__c, SBQQ__FontWeight__c, SBQQ__HeadingTextColor__c, SBQQ__HideOnComponents__c, SBQQ__LeftMargin__c, SBQQ__RightMargin__c, SBQQ__RollUp__c, SBQQ__Section__c, SBQQ__SeparateLine__c, SBQQ__SubGroupSummaryLabel__c, SBQQ__SummaryFontWeight__c, SBQQ__SummaryFunction__c, SBQQ__SummaryLabel__c, SBQQ__SummaryLevel__c, SBQQ__SummaryShadingColor__c, SBQQ__SummaryTextColor__c, SBQQ__TextColor__c, SBQQ__TopMargin__c, SBQQ__WidthDiscardedWhenHidden__c, SBQQ__Width__c FROM SBQQ__LineColumn__c",
       "operation": "Upsert",
       "externalId": "Name"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__BlockPrice__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, Lower_Tier__c, Price__c, Upper_Tier__c FROM Event_Volume_Pricing__c",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__Category__c, SBQQ__Message__c, SBQQ__Product__c, SBQQ__Required__c, SBQQ__Type__c, SBQQ__Value__c FROM SBQQ__LookupData__c",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__AggregateField__c, SBQQ__AggregateFunction__c, SBQQ__CombineWith__c, SBQQ__CompositeOperator__c, SBQQ__ConstraintField__c, SBQQ__FilterField__c, SBQQ__FilterValue__c, SBQQ__Operator__c, SBQQ__Scope__c, SBQQ__TargetObject__c, SBQQ__ValueElement__c FROM SBQQ__SummaryVariable__c",
+      "operation": "Upsert",
+      "externalId": "Name"
+    }, 
+     {
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__Active__c, SBQQ__AdvancedCondition__c, SBQQ__ConditionsMet__c, SBQQ__ConfiguratorEvaluationEvent__c, SBQQ__EvaluationEvent__c, SBQQ__EvaluationOrder__c, SBQQ__LookupObject__c, SBQQ__Product__c, SBQQ__TargetObject__c FROM SBQQ__PriceRule__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__ConfigurationAttribute__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__LookupField__c, SBQQ__MatchType__c, SBQQ__Operator__c, SBQQ__PriceRule2__c, SBQQ__ProductRule__c, SBQQ__TestedConfigurationAttribute__c, SBQQ__TestedField__c, SBQQ__TestedObject__c, SBQQ__TestedValue__c FROM SBQQ__LookupQuery__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__ConfigurationRule__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__Rule__c, SBQQ__Formula__c, SBQQ__Order__c, SBQQ__SourceLookupField__c, SBQQ__SourceVariable__c, SBQQ__TargetObject__c, SBQQ__ValueField__c, SBQQ__Value__c, SBQQ__Field__c FROM SBQQ__PriceAction__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__ContractedPrice__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__Rule__c, SBQQ__Field__c, SBQQ__FilterFormula__c, SBQQ__FilterType__c, SBQQ__FilterVariable__c, SBQQ__Index__c, SBQQ__Object__c, SBQQ__Operator__c, SBQQ__TestedFormula__c, SBQQ__TestedVariable__c, SBQQ__Value__c FROM SBQQ__PriceCondition__c",
+      "operation": "Upsert",
+      "externalId": "Id"
+    }, 
+    {
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__Category__c, SBQQ__ConfigurationFieldSet__c, SBQQ__ConfiguredSKU__c, SBQQ__DiscountSchedule__c, SBQQ__DynamicProductFilterFieldSet__c, SBQQ__DynamicProductLookupFieldSet__c, SBQQ__MaxOptionCount__c, SBQQ__MinOptionCount__c, SBQQ__Number__c, SBQQ__OptionSelectionMethod__c FROM SBQQ__ProductFeature__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__Cost__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, ProductCode, Description, IsActive, Family, CurrencyIsoCode, SBQQ__AssetAmendmentBehavior__c, SBQQ__AssetConversion__c, SBQQ__BatchQuantity__c, SBQQ__BillingFrequency__c, SBQQ__BillingType__c, SBQQ__BlockPricingField__c, SBQQ__ChargeType__c, SBQQ__Component__c, SBQQ__CompoundDiscountRate__c, SBQQ__ConfigurationFieldSet__c, SBQQ__ConfigurationFields__c, SBQQ__ConfigurationFormTitle__c, SBQQ__ConfigurationType__c, SBQQ__ConfigurationValidator__c, SBQQ__ConfiguredCodePattern__c, SBQQ__ConfiguredDescriptionPattern__c, SBQQ__CostEditable__c, SBQQ__CostSchedule__c, SBQQ__CustomConfigurationPage__c, SBQQ__CustomConfigurationRequired__c, SBQQ__CustomerCommunityAvailability__c, SBQQ__DefaultPricingTable__c, SBQQ__DefaultQuantity__c, SBQQ__DescriptionLocked__c, SBQQ__DiscountCategory__c, SBQQ__DiscountSchedule__c, SBQQ__DynamicPricingConstraint__c, SBQQ__EnableLargeConfiguration__c, SBQQ__ExcludeFromMaintenance__c, SBQQ__ExcludeFromOpportunity__c, SBQQ__ExternallyConfigurable__c, SBQQ__GenerateContractedPrice__c, SBQQ__HasConfigurationAttributes__c, SBQQ__HasConsumptionSchedule__c, SBQQ__Hidden__c, SBQQ__HidePriceInSearchResults__c, SBQQ__IncludeInMaintenance__c, SBQQ__NewQuoteGroup__c, SBQQ__NonDiscountable__c, SBQQ__NonPartnerDiscountable__c, SBQQ__OptionLayout__c, SBQQ__OptionSelectionMethod__c, SBQQ__Optional__c, SBQQ__PriceEditable__c, SBQQ__PricingGuidance__c, SBQQ__PricingMethodEditable__c, SBQQ__PricingMethod__c, SBQQ__ProductPictureID__c, SBQQ__QuantityEditable__c, SBQQ__QuantityScale__c, SBQQ__ReconfigurationDisabled__c, SBQQ__RenewalProduct__c, SBQQ__SortOrder__c, SBQQ__Specifications__c, SBQQ__SubscriptionBase__c, SBQQ__SubscriptionCategory__c, SBQQ__SubscriptionPercent__c, SBQQ__SubscriptionPricing__c, SBQQ__SubscriptionTarget__c, SBQQ__SubscriptionTerm__c, SBQQ__SubscriptionType__c, SBQQ__TaxCode__c, SBQQ__Taxable__c, SBQQ__TermDiscountLevel__c, SBQQ__TermDiscountSchedule__c, SBQQ__UpgradeCredit__c, SBQQ__UpgradeRatio__c, SBQQ__UpgradeSource__c, SBQQ__UpgradeTarget__c, SBQQ__ConfigurationEvent__c FROM Product2",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__CustomScript__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__Active__c, SBQQ__AdvancedCondition__c, SBQQ__ConditionsMet__c, SBQQ__ErrorMessage__c, SBQQ__EvaluationEvent__c, SBQQ__EvaluationOrder__c, SBQQ__LookupMessageField__c, SBQQ__LookupObject__c, SBQQ__LookupProductField__c, SBQQ__LookupRequiredField__c, SBQQ__LookupTypeField__c, SBQQ__Scope__c, SBQQ__Type__c FROM SBQQ__ProductRule__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__Dimension__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__ProductRule__c, SBQQ__Active__c, SBQQ__AscendingNestedLevel__c, SBQQ__DescendingActionNesting__c, SBQQ__DescendingNestedLevel__, SBQQ__ProductFeature__, SBQQ__Product__c FROM SBQQ__ConfigurationRule__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__DiscountCategory__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__Rule__c, SBQQ__FilterField__c, SBQQ__FilterValue__c, SBQQ__Operator__c, SBQQ__Product__c, SBQQ__Required__c, SBQQ__Type__c, SBQQ__ValueAttribute__c, SBQQ__ValueField__c, SBQQ__ValueObject__c FROM SBQQ__ProductAction__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__DiscountSchedule__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SystemModstamp, SBQQ__Rule__c, SBQQ__FilterType__c, SBQQ__FilterValue__c, SBQQ__FilterVariable__c, SBQQ__Index__c, SBQQ__Operator__c, SBQQ__TestedAttribute__c, SBQQ__TestedObject__c, SBQQ__TestedVariable__c, SBQQ__TestedField__c FROM SBQQ__ErrorCondition__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__DiscountTier__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__AppliedImmediatelyContext__c, SBQQ__AppliedImmediately__c, SBQQ__Bundled__c, SBQQ__ComponentCodePosition__c, SBQQ__ComponentCode__c, SBQQ__ComponentDescriptionPosition__c, SBQQ__ComponentDescription__c, SBQQ__ConfiguredSKU__c, SBQQ__DefaultPricingTable__c, SBQQ__DiscountAmount__c, SBQQ__DiscountSchedule__c, SBQQ__Discount__c, SBQQ__DiscountedByPackage__c, SBQQ__ExistingQuantity__c, SBQQ__Feature__c, SBQQ__MaxQuantity__c, SBQQ__MinQuantity__c, SBQQ__Number__c, SBQQ__OptionalSKU__c, SBQQ__QuantityEditable__c, SBQQ__Quantity__c, SBQQ__QuoteLineVisibility__c, SBQQ__RenewalProductOption__c, SBQQ__Required__c, SBQQ__Selected__c, SBQQ__SubscriptionScope__c, SBQQ__System__c, SBQQ__Type__c, SBQQ__UnitPrice__c, SBQQ__UpliftedByPackage__c FROM SBQQ__ProductOption__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__ErrorCondition__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__ConstrainedOption__c, SBQQ__Active__c, SBQQ__CheckPriorPurchases__c, SBQQ__ConfiguredSKU__c, SBQQ__ConstrainingOption__c, SBQQ__OptionConstraintGroup__c, SBQQ__Type__c FROM SBQQ__OptionConstraint__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__Favorite__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__EffectiveDate__c, SBQQ__LowerBound__c, SBQQ__OrderProduct__c, SBQQ__OriginalBlockPrice__c, SBQQ__PriceBook2__c, SBQQ__Price__c, SBQQ__Product__c, SBQQ__QuoteLine__c, SBQQ__UpperBound__c, OverageRate__c FROM SBQQ__BlockPrice__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__FavoriteProduct__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, RecordTypeId, SBQQ__AppliedImmediately__c, SBQQ__ApplyToProductOptions__c, SBQQ__AutoSelect__c, SBQQ__ColumnOrder__c, SBQQ__DefaultField__c, SBQQ__DefaultObject__c, SBQQ__DisplayOrder__c, SBQQ__Feature__c, SBQQ__HiddenValues__c, SBQQ__Hidden__c, SBQQ__Position__c, SBQQ__Product__c, SBQQ__Required__c, SBQQ__ShownValues__c, SBQQ__TargetField__c FROM SBQQ__ConfigurationAttribute__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__FavoriteShare__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__Account__c, SBQQ__Contract__c, SBQQ__Description__c, SBQQ__DiscountSchedule__c, SBQQ__Discount__c, SBQQ__EffectiveDate__c, SBQQ__ExpirationDate__c, SBQQ__FilterField__c, SBQQ__FilterValue__c, SBQQ__NonDiscountable__c, SBQQ__Operator__c, SBQQ__OriginalQuoteLine__c, SBQQ__Price__c, SBQQ__Product__c FROM SBQQ__ContractedPrice__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__ImportColumn__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__Active__c, SBQQ__Product__c, SBQQ__UnitCost__c FROM SBQQ__Cost__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__ImportFormat__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__Code__c, SBQQ__ConsumptionRateFields__c, SBQQ__ConsumptionScheduleFields__c, SBQQ__GroupFields__c, SBQQ__QuoteFields__c, SBQQ__QuoteLineFields__c, SBQQ__TranspiledCode__c FROM SBQQ__CustomScript__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__LineColumn__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__CostEditable__c, SBQQ__DefaultQuantity__c, SBQQ__DiscountSchedule__c, SBQQ__NonDiscountable__c, SBQQ__NonPartnerDiscountable__c, SBQQ__PriceBook__c, SBQQ__PriceEditable__c, SBQQ__Product__c, SBQQ__QuantityEditable__c, SBQQ__QuantityScale__c, SBQQ__Taxable__c, SBQQ__TermDiscountSchedule__c, SBQQ__Type__c, SBQQ__UnitPrice__c FROM SBQQ__Dimension__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__Localization__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__MaxDiscountRate__c FROM SBQQ__DiscountCategory__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__LookupQuery__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__Account__c, SBQQ__AggregationScope__c, SBQQ__ConstraintField__c, SBQQ__CrossOrders__c, SBQQ__CrossProducts__c, SBQQ__Description__c, SBQQ__DiscountUnit__c, SBQQ__ExcludedPricebookIds__c, SBQQ__IncludeBundledProducts__c, SBQQ__OrderProduct__c, SBQQ__Order__c, SBQQ__OriginalDiscountSchedule__c, SBQQ__OverrideBehavior__c, SBQQ__PriceScale__c, SBQQ__Pricebook__c, SBQQ__Product__c, SBQQ__QuoteLineQuantityField__c, SBQQ__QuoteLine__c, SBQQ__Quote__c, SBQQ__Type__c, SBQQ__UsePriceForAmount__c, SBQQ__UserDefined__c FROM SBQQ__DiscountSchedule__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__OptionConstraint__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__Schedule__c, SBQQ__DiscountAmount__c, SBQQ__Discount__c, SBQQ__LowerBound__c, SBQQ__Number__c, SBQQ__Price__c, SBQQ__UpperBound__c FROM SBQQ__DiscountTier__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__PriceAction__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__Description__c FROM SBQQ__Favorite__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__PriceCondition__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__Favorite__c, SBQQ__ConfigurationAttributes__c, SBQQ__DiscountSchedule__c, SBQQ__DynamicOptionId__c, SBQQ__ProductOption__c, SBQQ__Product__c, SBQQ__Quantity__c, SBQQ__RequiredBy__c FROM SBQQ__FavoriteProduct__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__PriceRule__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__Favorite__c, SBQQ__User__c FROM SBQQ__FavoriteShare__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__PricingGuidance__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__ImportFormat__c, SBQQ__ColumnIndex__c, SBQQ__FieldName__c, SBQQ__Key__c FROM SBQQ__ImportColumn__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__ProcessInput__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__Active__c, SBQQ__ImportFormatName__c, SBQQ__TargetObject__c, SBQQ__UniqueKeyCount__c FROM SBQQ__ImportFormat__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__ProcessInputValue__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__APIName__c, SBQQ__Description__c, SBQQ__Label__c, SBQQ__Language__c, SBQQ__LineColumn__c, SBQQ__LongTextArea__c, SBQQ__PriceDimension__c, SBQQ__ProductFeature__c, SBQQ__ProductOption__c, SBQQ__Product__c, SBQQ__QuoteTemplate__c, SBQQ__QuoteTerm__c, SBQQ__RichTextArea__c, SBQQ__TemplateContent__c, SBQQ__TextArea__c, SBQQ__Text__c, SBQQ__UserDefined__c FROM SBQQ__Localization__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__ProductAction__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__Attribute__c, SBQQ__AppliedImmediately__c, SBQQ__ApplyToProductOptions__c, SBQQ__AttributeSet__c, SBQQ__AutoSelect__c, SBQQ__HiddenValues__c, SBQQ__Hidden__c, SBQQ__Required__c, SBQQ__Sequence__c, SBQQ__ShownValues__c FROM SBQQ__ProductAttribute__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__ProductAttribute__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, LastActivityDate, SBQQ__Active__c, SBQQ__AdvancedCondition__c, SBQQ__Body__c, SBQQ__ConditionsMet__c, SBQQ__Locked__c, SBQQ__ParentTerm__c, SBQQ__PrintOrder__c, SBQQ__Quote__c, SBQQ__StandardTerm__c, SBQQ__Status__c, SBQQ__TemplateContent__c, Quote_Term_Location__c FROM SBQQ__QuoteTerm__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__ProductFeature__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__DisplayOrder__c, SBQQ__ExternalId__c, SBQQ__Opportunity__c, SBQQ__Product__c, SBQQ__QuoteTemplate__c, SBQQ__Quote__c, SBQQ__Required__c, SBQQ__TemplateSection__c FROM SBQQ__RelatedContent__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__ProductOption__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__Localization__c, SBQQ__Value__c FROM SBQQ__SearchIndex__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__ProductRule__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__QuoteTerm__c, SBQQ__Index__c, SBQQ__Operator__c, SBQQ__TestedField__c, SBQQ__TestedVariable__c, SBQQ__Value__c FROM SBQQ__TermCondition__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__Quote__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__SourceProduct__c, SBQQ__UpgradeConversionRate__c, SBQQ__UpgradeProduct__c FROM SBQQ__UpgradeSource__c",
       "operation": "Upsert",
       "externalId": "Id"
     },
     {
-      "query": "SELECT readonly_false FROM SBQQ__QuoteDocument__c ORDER BY Id ASC",
-      "operation": "Upsert",
-      "externalId": "Id"
-    },
-    {
-      "query": "SELECT readonly_false FROM SBQQ__QuoteLine__c ORDER BY Id ASC",
-      "operation": "Upsert",
-      "externalId": "Id"
-    },
-    {
-      "query": "SELECT readonly_false FROM SBQQ__QuoteTemplate__c ORDER BY Id ASC",
-      "operation": "Upsert",
-      "externalId": "Id"
-    },
-    {
-      "query": "SELECT readonly_false FROM SBQQ__QuoteTerm__c ORDER BY Id ASC",
-      "operation": "Upsert",
-      "externalId": "Id"
-    },
-    {
-      "query": "SELECT readonly_false FROM SBQQ__RelatedContent__c ORDER BY Id ASC",
-      "operation": "Upsert",
-      "externalId": "Id"
-    },
-    {
-      "query": "SELECT readonly_false FROM SBQQ__SearchIndex__c ORDER BY Id ASC",
-      "operation": "Upsert",
-      "externalId": "Id"
-    },
-    {
-      "query": "SELECT readonly_false FROM SBQQ__Subscription__c ORDER BY Id ASC",
-      "operation": "Upsert",
-      "externalId": "Id"
-    },
-    {
-      "query": "SELECT readonly_false FROM SBQQ__SummaryVariable__c ORDER BY Id ASC",
-      "operation": "Upsert",
-      "externalId": "Id"
-    },
-    {
-      "query": "SELECT readonly_false FROM SBQQ__SummaryVariable__Share ORDER BY Id ASC",
-      "operation": "Upsert",
-      "externalId": "Id"
-    },
-    {
-      "query": "SELECT readonly_false FROM SBQQ__TemplateContent__c ORDER BY Id ASC",
-      "operation": "Upsert",
-      "externalId": "Id"
-    },
-    {
-      "query": "SELECT readonly_false FROM SBQQ__TemplateSection__c ORDER BY Id ASC",
-      "operation": "Upsert",
-      "externalId": "Id"
-    },
-    {
-      "query": "SELECT readonly_false FROM SBQQ__TermCondition__c ORDER BY Id ASC",
-      "operation": "Upsert",
-      "externalId": "Id"
-    },
-    {
-      "query": "SELECT readonly_false FROM SBQQ__UpgradeSource__c ORDER BY Id ASC",
-      "operation": "Upsert",
-      "externalId": "Id"
-    },
-    {
-      "query": "SELECT readonly_false FROM SBQQ__WebQuote__c ORDER BY Id ASC",
+      "query": "SELECT Id, Name, CurrencyIsoCode, SBQQ__Action__c, SBQQ__DisplayOrder__c, SBQQ__FilterSourceObject__c, SBQQ__FilterValue__c, SBQQ__HiddenSourceObject__c, SBQQ__Hidden__c, SBQQ__Operator__c, SBQQ__TargetObject__c, SBQQ__FilterSourceField__c, SBQQ__HiddenSourceField__c, SBQQ__TargetField__c FROM SBQQ__SearchFilter__c",
       "operation": "Upsert",
       "externalId": "Id"
     }
   ],
   "excludeIdsFromCSVFiles": true
 }
+
+
+
+
+
+
+
+
 
